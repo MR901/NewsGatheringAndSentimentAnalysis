@@ -2,7 +2,7 @@
 from selenium import webdriver
 import sys, glob
 
-class driver:
+class accessDriver:
     
     def __init__(self, browser='Chrome'):
         self.whichBrowser = browser
