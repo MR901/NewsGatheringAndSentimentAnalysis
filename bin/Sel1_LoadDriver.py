@@ -1,6 +1,10 @@
 
 from selenium import webdriver
 import sys, glob
+'''  '''
+from pyvirtualdisplay import Display 
+display = Display(visible=0, size=(800, 800))   ##to run it in background
+display.start()
 
 class accessDriver:
     

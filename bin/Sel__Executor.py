@@ -22,8 +22,6 @@ def execute(config, msg = False):
     time.sleep(2)
     t1 = int(time.time())
     
-    print(config['outputFilePath'], '----', config['searchFor'])
-    
     ## Performing Search
     sea = search(driver, config['searchUsing']) # option: 'GoogleSearch', 'GoogleNewsSearch', 'GoogleScholarSearch', 'GoogleImageSearch'
     sea.searchAndOpenNewTab(config['searchFor'])
