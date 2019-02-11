@@ -550,3 +550,135 @@ console.error: BroadcastService:
 console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
 console.error: "getLayout@resource://devtools/server/actors/styles.js:814:5\nhandler@resource://devtools/shared/protocol.js:1197:21\nonPacket@resource://devtools/server/main.js:1324:15\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:5\n"
 console.error: "Protocol error (unknownError): node is null"
+[Child 24228, MediaPlayback #4] WARNING: Decoder=7f1c86535800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c86535800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c86535800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c86535800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c86535800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xE0008,name=PBackgroundIDBTransaction::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 23761, Gecko_IOThread] WARNING: pipe error (183): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBTransaction::Msg_DeleteMe Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 24228, MediaPlayback #4] WARNING: Decoder=7f1c6bc34a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bc34a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bc34a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6bb7e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6bc32600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6bc32600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bc32600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+1549795054016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LWy4uttXska9"
+1549795054502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549795054503	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549795056288	Marionette	INFO	Listening on port 45021
+1549795056333	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bb7b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6bb7b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #4] WARNING: Decoder=7f1c6bb7b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6bb7b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #4] WARNING: Decoder=7f1c6bb7b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #2] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #4] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #1] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 24228, MediaPlayback #3] WARNING: Decoder=7f1c6faf2800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-HN7tk_/firefox-65.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 23761, Gecko_IOThread] WARNING: pipe error (193): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 23761, Gecko_IOThread] WARNING: pipe error (185): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 25928, Gecko_IOThread] WARNING: pipe error (134): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25928, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25928, Gecko_IOThread] WARNING: pipe error (123): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25928, Gecko_IOThread] WARNING: pipe error (146): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25928, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1549797487816	Marionette	INFO	Stopped listening on port 45021
+1549797492408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.15eaHH1M0yGT"
+1549797492811	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549797492812	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549797494695	Marionette	INFO	Listening on port 37937
+1549797494732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549797580628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zDuJhaR3r3V0"
+1549797581040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549797581040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549797582906	Marionette	INFO	Listening on port 38279
+1549797582953	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1549797684883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dbzlJrNzczKZ"
+1549797685390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549797685390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549797687072	Marionette	INFO	Listening on port 36739
+1549797687093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://code.jquery.com/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-KP8KNP&t=gtm8&cid=1014653528.1549797737, line 113: unreachable code after return statement
+[Parent 28153, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 28153, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1549797816521	Marionette	INFO	Stopped listening on port 36739
+[Parent 27761, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 27761, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1549797817568	Marionette	INFO	Stopped listening on port 38279
+[Parent 27422, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 27422, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1549797819300	Marionette	INFO	Stopped listening on port 37937
+[Parent 23761, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Parent 23761, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
