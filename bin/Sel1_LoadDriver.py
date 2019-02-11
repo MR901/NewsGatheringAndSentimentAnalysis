@@ -2,11 +2,11 @@
 from selenium import webdriver
 import sys, glob
 
-class driver:
+class accessDriver:
     
     def __init__(self, browser='Chrome'):
         self.whichBrowser = browser
-        self.driverDir = 'driver/'
+        self.driverDir = '../data/driver/'
     
     def setOptionAndLoadDriver(self, path):
         '''
@@ -73,8 +73,8 @@ class driver:
             self.driverDir += 'window/'
 
         print('Trying to locate the required driver at "'+ self.driverDir +'"')
-        files =  glob.glob(self.driverDir+'*')
-        # print(files)
+        files =  glob.glob(self.driverDir+'*river*')
+        print(files)
         if len(files) == 1:
             driver = self.setOptionAndLoadDriver(files[0])
             print('Driver file has been located and loaded')
