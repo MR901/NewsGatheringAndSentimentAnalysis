@@ -5,23 +5,24 @@ from Sel__Executor import checkConfigAndTriggerSearch
 
 
 BROWSER_CHOICE_MSG = """
-Select from the following list of air cargo problems. You may choose more than
-one by entering multiple selections separated by spaces.
+Select the browser from the following list. 
+Type the integer to select the choice.
 """
 
 SEARCH_CHOICE_MSG = """
-Select from the following list of search functions. You may choose more than
-one by entering multiple selections separated by spaces.
+Select the search engine from the following list. 
+Type the integer to select the choice.
 """
 
 SEARCH_TEXT_MSG = """
-type the text that you want to search. you may evenn search multiple search by just seperating the text by ";<blankspance>"
+Type the text that you want to search. 
+You may even search multiple text by seperating the texts by ";<blankspance>"
 """
 
 INVALID_ARG_MSG = """
-You must either use the -m flag to run in manual mode, or use both the -p and
--s flags to specify a list of problems and search algorithms to run. Valid
-choices for each include:
+You must either of the two method to run the code
+    1. Use the -m flag to run in manual mode, or 
+    2. Use -b, -s and -sF flags to specify a browser, searcher and either a string or strings seperated by "; "
 """
 
 BROWSER = [['Chrome'],
@@ -77,13 +78,13 @@ if __name__=="__main__":
                         help="Interactively select the problems and searches to run.")
     
     parser.add_argument('-b', '--browser', nargs= 1, choices=range(1, len(BROWSER)+1), type=int, metavar='', #nargs="+"
-                        help="Specify the indices of the problems to solve as a list of space separated values. Choose from: {!s}".format(list(range(1, len(BROWSER)+1))),
+                        help="Specify the indice of the browser you wish to use. Choose from: {!s}".format(list(range(1, len(BROWSER)+1))),
                        default = 1)
     parser.add_argument('-s', '--searcher', nargs= 1, choices=range(1, len(SEARCHES)+1), type=int, metavar='',
-                        help="Specify the indices of the search algorithms to use as a list of space separated values. Choose from: {!s}".format(list(range(1, len(SEARCHES)+1))),
+                        help="Specify the indice of the search engine you wish to use. Choose from: {!s}".format(list(range(1, len(SEARCHES)+1))),
                        default = 2)
     parser.add_argument('-sF', '--searchFor', metavar= '',
-                        help='Type the String that you want to search')
+                        help='Specify the text/s you want to extraact information on. Texts sshould be ssepperated by "; ".')
     args = parser.parse_args()
 
     if args.manual:
@@ -94,11 +95,11 @@ if __name__=="__main__":
         print()
         parser.print_help()
         print(INVALID_ARG_MSG)
-        print("Problems\n-----------------")
+        print("Browser\n-----------------")
         for idx, (name) in enumerate(BROWSER):
             print("    {!s}. {}".format(idx+1, name))
         print()
-        print("Search Algorithms\n-----------------")
+        print("Search Engine\n-----------------")
         for idx, (name) in enumerate(SEARCHES):
             print("    {!s}. {}".format(idx+1, name))
         print()
