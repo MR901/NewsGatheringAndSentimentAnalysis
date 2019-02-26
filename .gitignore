@@ -1,0 +1,16 @@
+#*.csv
+
+*.pyc
+
+*.log
+
+*.h5
+
+*.p
+
+*.sav
+
+
+bin/__pycache__/*
+
+bin/.ipynb_checkpoints/*
